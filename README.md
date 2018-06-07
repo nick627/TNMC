@@ -30,7 +30,7 @@ In the report lead:
 Task number 3
 Each of these numbers is factorized:
 1. Pollard ro-method.
-2. (p-1) -the Pollard method.
+2. (p-1)- the Pollard method.
 3. By the method of a quadratic sieve.
 4. The method of continued fractions.
 
@@ -48,8 +48,8 @@ In the report lead:
 4. For the method of continued fractions:
 4.1 With the successful completion of work:
 4.1.1 The decomposition database (original, modified (if needed, justify the need for a change)), with a large base volume - the number of elements in the database and its last element, the criteria for excluding elements from the database.
-4.1.2 The numerators P_i of the appropriate fractions used in the expansion for the D-smooth values (P_i) ^ 2 (mod n), for a large data volume - 5 values of Pi and (P_i) ^ 2 (mod n).
-4.1.3 The vectors of the exponents for the D-smooth values (P_i) ^ 2 (mod n), for a large data volume - 5 vectors corresponding to the values (P_i) ^ 2 (mod n) from the previous point.
+4.1.2 The numerators P_i of the appropriate fractions used in the expansion for the D-smooth values (P_i)^2 (mod n), for a large data volume - 5 values of Pi and (P_i)^2 (mod n).
+4.1.3 The vectors of the exponents for the D-smooth values (P_i)^2 (mod n), for a large data volume - 5 vectors corresponding to the values (P_i)^2 (mod n) from the previous point.
 4.1.4 The method used to search for linearly dependent vectors (if a ready procedure was used, specify from which library).
 4.1.5 The values of s and t.
 4.2 If it is not possible to find the decomposition more than a few hours:
@@ -81,23 +81,23 @@ In the report lead:
 1. In the case of a successful completion of the program: the result of discrete logarithm is the number x.
 2. For the Gel'fond method:
 2.1. The value of s.
-2.2. A database of the form {k, b * a ^ (-k s) (mod p)}, sorted by the first coordinate. With a large base volume - the first 5 and the last 5 of its elements.
-2.3. The value of t for which a ^ t = b * a ^ (- k s) (mod p) for some k. Equation for calculating the logarithm of x. The method of solving the equation.
-2.4. If it is not possible to find the discrete logarithm for more than a few hours - the value of t, to which the sequence a ^ t (mod p) is constructed, the time spent on constructing the second sequence, the estimated time remaining until the completion of the work (through an algorithm complexity estimation), conclusions (explanation of the non-productive completion).
+2.2. A database of the form {k, b * a^(-k s) (mod p)}, sorted by the first coordinate. With a large base volume - the first 5 and the last 5 of its elements.
+2.3. The value of t for which a^t = b * a^(- k s) (mod p) for some k. Equation for calculating the logarithm of x. The method of solving the equation.
+2.4. If it is not possible to find the discrete logarithm for more than a few hours - the value of t, to which the sequence a^t (mod p) is constructed, the time spent on constructing the second sequence, the estimated time remaining until the completion of the work (through an algorithm complexity estimation), conclusions (explanation of the non-productive completion).
 3. For the decomposition base method:
 3.1 With the successful completion of work:
 3.1.1 The decomposition base B (original, modified (if needed, justify the need for change)), with a large base volume - the number of elements in the database and its last element.
-3.1.2. The B-smooth values of a ^ (u_i) (mod p), their corresponding exponents u_i, for a large data volume - for the five specified values
-3.1.3 The vectors of the exponents for the B-smooth values of a ^ (u_i) (mod p), for a large data volume, are 5 vectors corresponding to the values of a ^ (u_i) (mod p) from the previous point.
-3.1.4 The exponent v for which the value b ^ v (mod p) is B-smooth, the corresponding index vector.
+3.1.2. The B-smooth values of a^(u_i) (mod p), their corresponding exponents u_i, for a large data volume - for the five specified values
+3.1.3 The vectors of the exponents for the B-smooth values of a^(u_i) (mod p), for a large data volume, are 5 vectors corresponding to the values of a^(u_i) (mod p) from the previous point.
+3.1.4 The exponent v for which the value b^v (mod p) is B-smooth, the corresponding index vector.
 3.1.5 The method used to exclude variables (if a ready procedure was used, specify from which library).
 3.1.6 The method used to solve the linear comparison with respect to the unknown x.
 3.2 If it is not possible to find the discrete logarithm for more than a few hours:
 3.2.1 Information on subparagraphs 4.1.1-4.1.3 at the time of the program interruption.
-3.2.2 Estimated number of smooth numbers a ^ (u_i) (mod p) and the time required to search for them.
-3.2.3 The exponent v for which the value b ^ v (mod p) is B-smooth, the corresponding index vector.
+3.2.2 Estimated number of smooth numbers a^(u_i) (mod p) and the time required to search for them.
+3.2.3 The exponent v for which the value b^v (mod p) is B-smooth, the corresponding index vector.
 
 4. For the Pollard ro-method:
 4.1 Algorithm parameters (used display, initial value (several if they had to be changed)).
-4.2 When the result is completed, the first 5 and the last 5 values of c, d, log_a_ (c), log_a_ (d), the number of iterations, the program time, conclusions (explanation of the effective completion).
-4.3 When the program is running for more than several hours, the first 5 and the last (at the time of the program interruption) 5 values of c, d, log_a_ (c), log_a_ (d), the number of iterations completed, the time taken to execute them, the estimated time remaining until completion of work (through an estimation of the complexity of the algorithm), conclusions (explanation of non-productive completion).
+4.2 When the result is completed, the first 5 and the last 5 values of c, d, log_a_(c), log_a_(d), the number of iterations, the program time, conclusions (explanation of the effective completion).
+4.3 When the program is running for more than several hours, the first 5 and the last (at the time of the program interruption) 5 values of c, d, log_a_(c), log_a_(d), the number of iterations completed, the time taken to execute them, the estimated time remaining until completion of work (through an estimation of the complexity of the algorithm), conclusions (explanation of non-productive completion).
