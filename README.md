@@ -1,6 +1,12 @@
 # TNMC
 Source codes for discipline number-theoretic methods in cryptography (IBKS, SPbSTU, St. Petersburg, fall 2017)
 
+I use MPIR and MPFR library 
+
+Link for help install
+https://www.youtube.com/watch?v=S06mX5dwIJ0
+https://www.youtube.com/watch?v=je5ei4rCFiw
+
 
 Task number 1
 For each pair of numbers, find the greatest common divisor and its linear representation using the following algorithms:
